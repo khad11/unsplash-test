@@ -5,7 +5,7 @@ function Search() {
   return (
     <div>
       <Form method="post" className="max-w-96 w-full mx-auto flex gap-2 ">
-        <FormInput />
+        <FormInput type="text" placeholder="search" name="search" />
         <button className="btn btn-primary md:hidden btn-sm "> search</button>
       </Form>
     </div>
